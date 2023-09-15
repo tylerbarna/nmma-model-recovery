@@ -1,11 +1,8 @@
-import bilby.core
-import json
-import numpy as np
 import os 
 
 
 models_to_fit = ['nugent-hyper', 'Bu2019lm', 'TrPi2018']
-priors_directory = '../dsmma_kn_23/priors/'
+priors_directory = './priors/'
 num_lightcurves = 100
 filters=['ztfg', 'ztfr', 'ztfi']
 
